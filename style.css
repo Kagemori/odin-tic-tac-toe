@@ -1,3 +1,28 @@
+#container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .5fr .3fr 3fr;
+}
+
+#game-header {
+    grid-row: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 70px;
+}
+
+#game-winner {
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 50px;
+}
+
 #game-board {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
